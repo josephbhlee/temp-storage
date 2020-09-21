@@ -30,6 +30,14 @@ Complex Complex::operator -(const Complex& c)
     return tmp;
 }
 
+Complex Complex::operator *(const Complex& c)
+{
+    Complex tmp;
+    tmp.re = this->re*c.re-this->im*c.im;
+    tmp.im = this->re*c.im + this->im*c.re;
+    return tmp; 
+}
+
 void Complex::show()
 {
     cout << this->re << " + i" << this->im << '\n';
