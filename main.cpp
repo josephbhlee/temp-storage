@@ -17,11 +17,11 @@ int main()
     c.show() ;
     cout <<endl;
 
-    sum = a + b; // 연산자 함수 + 호출
+    sum = a + b; // Operator function.
     cout << "a + b = "; sum.show();
-    dif = a - b; // 연산자 함수 - 호출
+    dif = a - b; // Operator Function
     cout << "a - b = "; dif.show();
-    sum = a + b + c; // 연산자 함수 + 호출
+    sum = a + b + c; // Operator Function.
     cout << "a + b + c = "; sum.show();
 
     return 0;

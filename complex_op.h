@@ -1,3 +1,5 @@
+// This file made by Joseph Lee for testing.
+
 #include <iostream>
 
 using namespace std;
@@ -10,8 +12,8 @@ public:
     Complex(double r, double i);
     Complex();
     Complex operator +(const Complex& c);
-    // + 연산자 중복
+    // + Operator Overloading
     Complex operator -(const Complex& c);
-    // - 연산자 중복
+    // - Operator Overloading
     void show();
 };
