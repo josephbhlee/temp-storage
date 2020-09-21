@@ -1,3 +1,4 @@
+//This is simple complex structure.
 
 #include "complex_op.h"
 
@@ -33,4 +34,4 @@ void Complex::show()
 {
     cout << this->re << " + i" << this->im << '\n';
 }
-
+//It is right... Good bye!!!!
