@@ -15,5 +15,6 @@ public:
     // + Operator Overloading
     Complex operator -(const Complex& c);
     // - Operator Overloading
+    Complex operator *(const Complex& c);
     void show();
 };
