@@ -18,3 +18,10 @@ public:
     Complex operator *(const Complex& c);
     void show();
 };
+//This is simple version
+class A {
+private:
+    
+   public:
+    
+}
